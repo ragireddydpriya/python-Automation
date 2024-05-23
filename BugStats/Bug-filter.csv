@@ -1,0 +1,77 @@
+﻿Issue Type,Issue key,Summary,Assignee,Reporter,Priority,Status,Created,Updated,Fix versions
+Bug,SWE-5393,Cervelo - TCS calibration takes 30 min to 1 hour,Kevin Foltinek,Kalin Kabakchiev,Highest,In Progress,29-10-20 9:57,21-01-21 14:39,Rel_0.7.7_RC6
+Bug,SWE-6546,Error when Running TX DLL Test,Kuladeepak,Rajkumar M,High,In Progress,18-01-21 0:32,22-01-21 3:57,Rel_0.7.7_RC6
+Bug,SWE-6306,RevB HW: Radar hanging for scans with 2D antenna configs and det loops for Quill module with Pratt 1.4p antenna,Jayaprasad T J,Athira Sasidharan,High,In Progress,05-01-21 7:08,22-01-21 3:36,Rel_0.7.7_RC6
+Bug,SWE-6183,VP110 range measurement error,Pradeep Joseph Rayan,Somnath Mukherjee,High,In Progress,26-12-20 3:19,20-01-21 9:11,Rel_0.7.7_Au
+Bug,SWE-5294,DSP crash with --mem-spec dcu --back-to-back together,Ram Prasath S,Liujun Liu,High,In Progress,20-10-20 19:02,18-01-21 9:54,Rel_0.7.7_Au
+Bug,SWE-6175,RevB HW :  Target drop seen for digital loopback scans with overwrite_pgu_seeds hook enabled,Aparna Dutta,Jayashree,Medium,In Progress,24-12-20 1:23,22-01-21 6:59,Rel_0.7.7_RC6
+Bug,SWE-6299,RevB : unable to disconnect from the radar error while running scans on Jujitsu module,Malini,Jayashree,Medium,In Progress,05-01-21 1:10,22-01-21 5:09,Rel_0.7.7_RC6
+Bug,SWE-4271,Revb hw :  CP210 and VP211 long scans hanging Voltage crossed Set Warning limit,Jayashree,Joseph Mathew,Medium,In Progress,10-08-20 23:26,22-01-21 3:51,Rel_0.7.7_Au
+Bug,SWE-6103,RevB HW: VP110 reports fake detections on 0.7.7-Beta2,Aparna Dutta,Jayaprasad T J,Medium,In Progress,21-12-20 2:04,22-01-21 3:30,Rel_0.7.7_Au
+Bug,SWE-3757,"RevB HW: FEU, NSU-HIST,NSU-SS CRC mismatch and scan coredump fail in b2b,full overlap, no fe-be overlap 1,2,3 scan; Scans-DL-hooks-jj",Malini,Subhash Krishnan,Medium,In Progress,09-07-20 3:09,21-01-21 12:23,Rel_0.7.7_RC6
+Bug,SWE-5412,RevB HW: Fake detections observed for VP105 cervelo scans,Aparna Dutta,Athira Sasidharan,Medium,TODO,30-10-20 7:36,21-01-21 10:48,Rel_0.7.7_Au
+Bug,SWE-6176,"RevB hw: In cervelo scans 1d-2d det loop, a ghost target seen at different azimuth in 1D scan with significant SNR on Austin-Uhtube",Aparna Dutta,Subhash Krishnan,Medium,In Progress,24-12-20 3:08,21-01-21 10:46,Rel_0.7.7_Au
+Bug,SWE-5559,RevB Hw : few MPU test cases fails with watchdog timeout issue,Ram Prasath S,Jayashree,Medium,TODO,09-11-20 23:24,21-01-21 7:47,Rel_0.7.7_RC6
+Bug,SWE-4589,RevB Hw : unable to capture complex and magnitude  RDC3 for VP211 /CP210 in digital loopback,Jayashree,Jayashree,Medium,In Progress,27-08-20 5:56,21-01-21 4:57,Rel_0.7.7_Au
+Bug,SWE-1540,Invalid RDC1 when using --rdc1-shared double for VP105 for multiple scans,Malini,Sivapriya,Medium,TODO,18-02-20 5:03,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-2116,RevB HW: Not observing the required targets in U/L RDC3 for synthetic RDC1 and DL scans,Aparna Dutta,Sivapriya,Medium,TODO,24-03-20 9:22,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-2663,RevB Hw : coredump and crc mismatch in all_antenna_config job,Sanjeev Sarvesh,Jayashree,Medium,In Progress,30-04-20 0:32,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-2942,RevB Hw : PID logs not matching with reference for VP103 (proc only and dual proc) job,Aparna Dutta,Jayashree,Medium,TODO,18-05-20 0:40,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3071,RevB hw : crc mismatch in DL scans(Dual proc jobs),Aparna Dutta,Jayashree,Medium,TODO,26-05-20 1:32,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3148,RCC: In 'user' mode SS plot should allowed to lock magnitude above plotted data,Dongji Yi,Jonathan Preussner,Medium,TODO,29-05-20 7:40,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3161,RevB hw : crc mismatch seen in hw sva jobs,Aparna Dutta,Jayashree,Medium,TODO,01-06-20 1:22,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3164,RevB hw : gain manager logs mismatch against reference (proc jobs),Jayashree,Jayashree,Medium,TODO,01-06-20 2:45,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3298,Dataspray capture in 16-bit mode loads into MATLAB with bad data,Kent Anderson,Kent Anderson,Medium,In Progress,10-06-20 16:10,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3538,revb_hw : back_to_back scan mode is inconsistent in last frame in the case of 3 scans in frame,Jean Pierre Bordes,Joseph Mathew,Medium,In Progress,25-06-20 2:55,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3576,RevB hw: Proc CRC mismatch  in RAU DUAL PASS tests,Sivapriya,Subhash Krishnan,Medium,In Progress,29-06-20 6:01,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3701,Automotive Ethernet not link training with newer Technica Converters,Prasant Behera,Evan Marchman,Medium,TODO,03-07-20 14:41,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3751,DSP/PROC malfunctions when zero-doppler is enabled with continuous scanning,Ram Prasath S,Steve Borho,Medium,In Progress,08-07-20 19:18,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3953,revb_hw : Coredump mismatch Autogen lld blocks failing,Sanjeev Sarvesh,Joseph Mathew,Medium,TODO,21-07-20 0:00,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3960,RevB HW: Scan coredump mismatch for VP114 back to back 3 scans,Malini,Athira Sasidharan,Medium,TODO,21-07-20 1:37,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-4293,CIU overflow in the scan after warmup for CP104 96 vrx and CP101,Malini,Jayashree,Medium,TODO,12-08-20 4:08,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-4533,"RevB Hw : Unable to capture SS for CP102(digital loopback) ,CP104 (analog) and VP211 ( analog and digital loopback)",Sivapriya,Jayashree,Medium,TODO,20-08-20 2:05,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-4900,RCC: camera intrinsic calibration wizard does not work in windows or linux,Rahul Deo,Jonathan Preussner,Medium,TODO,22-09-20 14:00,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-4901,RCC: camera intrinsic calibration wizard does not include setting for the size of the calibration squares.,Rahul Deo,Jonathan Preussner,Medium,TODO,22-09-20 14:03,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-4902,RCC: camera intrinsic calibration wizard settings are not preserved over RCC sessions.,Rahul Deo,Jonathan Preussner,Medium,TODO,22-09-20 14:05,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-4918,RCC: 1D2D loop is still not properly detected in clutter image plotter.,Rahul Deo,Jonathan Preussner,Medium,TODO,24-09-20 16:23,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-5102,RCC: clutter image top view elevation bug,Zhaoqiang Zheng,Jonathan Preussner,Medium,TODO,07-10-20 16:54,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-5370,doppler interpolation quantizaion,Jean Pierre Bordes,Liujun Liu,Medium,In Progress,28-10-20 0:02,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-5621,"RevB HW : Detection list full , increase base threshold  message  with Antenna config 25",Jayashree,Jayashree,Medium,TODO,17-11-20 0:16,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-5660,Clear ACU Interrupt regs before starting a scan,Somnath Mukherjee,shanmathi,Medium,TODO,20-11-20 5:44,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-5675,1D 2D loop data with detections only are still flashing,Zhaoqiang Zheng,Yuhuan Zhu,Medium,TODO,23-11-20 1:45,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-5699,No variation in data speed observed when switching the ethernet speed to 1 2& 3 in modulecfg,Enesh Manian,Enesh Manian,Medium,TODO,23-11-20 23:40,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-5921,"Channelizer (MUSIC) fails in BE (""Proc"")",Aparna Dutta,Jean Pierre Bordes,Medium,TODO,07-12-20 10:56,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-6057,"RevB HW: CRC mismatch for VP114. VP114U, VP110 on Austin Quill 0.7.7-Alpha2 expt jobs",Jayaprasad T J,Jayaprasad T J,Medium,TODO,18-12-20 9:00,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-5638,Auto Update Color Map doesn't work,Dongji Yi,Yuhuan Zhu,Medium,TODO,19-11-20 1:11,21-01-21 2:14,Rel_0.7.7_RC6
+Bug,SWE-6477,RCC: video viewer cannot be resized properly,Dongji Yi,Jonathan Preussner,Medium,TODO,11-01-21 12:26,21-01-21 2:14,Rel_0.7.7_RC6
+Bug,SWE-5838,RevB x86: RAU LLD Unit test failing,Sanjeev Sarvesh,Athira Sasidharan,Medium,TODO,02-12-20 0:58,21-01-21 2:13,Rel_0.7.7_RC6
+Bug,SWE-6101,RevB HW: Scans not happening for 3 Scan VP114 on  0.7.7-Beta2,Jayaprasad T J,Jayaprasad T J,Medium,TODO,21-12-20 1:11,21-01-21 2:13,Rel_0.7.7_RC6
+Bug,SWE-6154,RevB x86: FEU LLD Unit test failing,Sanjeev Sarvesh,Athira Sasidharan,Medium,TODO,23-12-20 1:56,21-01-21 2:13,Rel_0.7.7_RC6
+Bug,SWE-6155,RevB x86: NSU LLD Unit test failing,Sanjeev Sarvesh,Athira Sasidharan,Medium,TODO,23-12-20 2:01,21-01-21 2:13,Rel_0.7.7_RC6
+Bug,SWE-6156,RevB x86: SEU LLD Unit test failing,Sanjeev Sarvesh,Athira Sasidharan,Medium,TODO,23-12-20 2:06,21-01-21 2:13,Rel_0.7.7_RC6
+Bug,SWE-23,SabineB ADC capture summary structure is incorrect for ADIE capture,Pradeep Joseph Rayan,Steve Borho,Medium,TODO,05-11-19 17:08,21-01-21 2:11,Rel_0.7.7_Au
+Bug,SWE-3542,revB_hw : Ego velocity injection is not reflecting in Doppler or Flag in the detected target,Pradeep Joseph Rayan,Joseph Mathew,Medium,TODO,25-06-20 7:44,21-01-21 2:11,Rel_0.7.7_Au
+Bug,SWE-3566,RevB Hw : unable to capture rdc1 for VP211 and CP210,Pradeep Joseph Rayan,Jayashree,Medium,In Progress,29-06-20 0:38,21-01-21 2:11,Rel_0.7.7_Au
+Bug,SWE-3763,ADC data loads into MATLAB incorrectly,Pradeep Joseph Rayan,Kent Anderson,Medium,TODO,09-07-20 11:01,21-01-21 2:11,Rel_0.7.7_Au
+Bug,SWE-5762,RevB HW : dsp not booting up when running scans,Ram Prasath S,Jayashree,Medium,In Progress,26-11-20 0:37,20-01-21 9:16,Rel_0.7.7_Au
+Bug,SWE-6028,Booting failed after module configuration,Rajkumar M,Rajkumar M,Medium,TODO,16-12-20 4:47,20-01-21 9:16,Rel_0.7.7_Au
+Bug,SWE-6171,v0.7.7 Chip SDK Quick start guide Review / Its feedback tracker,ahsan kabir,Nakkeeran Kumaraswami,Medium,TODO,23-12-20 22:40,19-01-21 14:39,Rel_0.7.7_RC6
+Bug,SWE-5335,RevB hw: Fake detections near actual target for VP211 on Austin-uhtube,Somnath Mukherjee,Subhash Krishnan,Medium,TODO,23-10-20 1:27,19-01-21 6:24,Rel_0.7.7_Au
+Bug,SWE-861,SS plot of RCC flash when scan1 is 1d  and scan 2 is 2d,Zhaoqiang Zheng,Yuhuan Zhu,Low,TODO,20-12-19 2:54,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-928,RevB HW : analog_init test fails in Scans DDR SRSB sabinejj pipeline,Ram Prasath S,vigneswaran jagadeesan,Low,TODO,14-11-19 0:08,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-1526,Digital loopback CP scans: SCU CRC inconsistent with ICU-D enabled,Malini,Malini,Low,TODO,17-02-20 5:20,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-1957,"When building block-wise for LLD autogen diags, previously enabled block is not cleared",Aparna Dutta,Malini,Low,TODO,11-03-20 23:39,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-2023,Ethernet MAC loopback not working,Ramasubramanian Sankar,Prasant Behera,Low,In Progress,18-03-20 21:52,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-2600,RevB_HW : core-dump registers missing for ACU_RX,Malini,Joseph Mathew,Low,TODO,23-04-20 14:34,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-2601,anomaly (toggling RAM_A RAM_B) in the transmit spectrum when sig gen is running,Srikanth Gollapudi,Amar,Low,TODO,23-04-20 21:51,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3172,upload_image.py failing to identify corrupted image,Prasant Behera,Joseph Mathew,Low,TODO,01-06-20 23:52,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3260,RevB_HW : Autogen  acu_rx_block_test fails (rgc-cache-off ),Malini,Joseph Mathew,Low,TODO,08-06-20 23:52,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3262,RevB_HW : Autogen  acu_tx_block_test fails (rgc-cache-off ),Malini,Joseph Mathew,Low,TODO,09-06-20 0:16,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3579,Adi Custom parity error is set in VP104,Malini,shanmathi,Low,TODO,29-06-20 10:03,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3804,PGU parity error bit sets in VP104,Sanjeev Sarvesh,shanmathi,Low,TODO,13-07-20 0:13,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-3805,RCC doesn't show modification of antenna_configure_id properly,Dongji Yi,Yuhuan Zhu,Low,TODO,13-07-20 1:02,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-4050,RCC：title of SS plot don't show clearly on 4K view,Zhaoqiang Zheng,Yuhuan Zhu,Low,TODO,24-07-20 3:00,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-4802,CLONE - clutter image plot goes away when running scans,Zhaoqiang Zheng,Jonathan Preussner,Low,TODO,13-09-20 19:43,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-4934,"RCC report ""session is busy now"" when reset radar after uploading image",Dongji Yi,Yuhuan Zhu,Low,TODO,25-09-20 2:51,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-5223,RevB HW : CP210 preset hangs in analog scan on JJ,Jayashree,Jayashree,Low,TODO,15-10-20 5:33,21-01-21 2:16,Rel_0.7.7_RC6
+Bug,SWE-5735,Enable ACE logs in RLA_ScanDescImpl,Somnath Mukherjee,shanmathi,Lowest,TODO,25-11-20 2:45,21-01-21 2:16,Rel_0.7.7_RC6
